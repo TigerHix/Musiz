@@ -86,7 +86,7 @@ public class Musiz implements ApplicationListener {
         
         stage.addActor(scanner);
         
-        loadBeatmap("l2b");
+        loadBeatmap("biotonic");
         
         startGame();
         

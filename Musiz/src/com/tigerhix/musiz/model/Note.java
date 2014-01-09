@@ -39,7 +39,7 @@ public class Note {
         texture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
 		image = new Image(texture);
 		image.setOrigin(image.getWidth() / 2, image.getHeight() / 2);
-		image.setSize((float) (stage.getWidth() / 6.5 * scale.getScale()), (float) (stage.getWidth() / 6.5 * scale.getScale()));
+		image.setSize((float) (stage.getWidth() / 8 * scale.getScale()), (float) (stage.getWidth() / 8 * scale.getScale()));
 		image.setBounds(0, 0, image.getWidth(), image.getHeight());
 		image.setVisible(false);
 		image.setTouchable(Touchable.enabled);
